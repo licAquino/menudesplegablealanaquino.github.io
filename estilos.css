@@ -1,0 +1,66 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	
+	box-sizing: border-box;
+}
+
+body {
+	background-color: rgba(255, 255, 255, 0.767);
+}
+
+.navegacion {
+	
+	width: 1000px;
+	margin: 30px auto;
+	background: gold;
+}
+
+.navegacion ul {
+	list-style: none;
+}
+
+.menu > li {
+	position: relative;
+	display: inline-block;
+}
+
+.menu > li > a {
+	display: block;
+	padding: 15px 20px;
+	color: #fff;
+	font-family: 'algerian';
+	text-decoration: none;
+}
+
+.menu li a:hover {
+	color: black;
+	transition: all .3s;
+	background: goldenrod;
+}
+
+.submenu {
+	position: absolute;
+	background: gold;
+	width: 125%;
+	visibility: hiden;
+	opacity: 0;
+	transition: 1.5s
+}
+
+.submenu li a {
+	display: block;
+	padding: 15px;
+	color: white;
+	font-family: 'comic sans Ms';
+	text-decoration: none;
+}
+
+.menu li:hover .submenu{
+	visibility: visible;
+	opacity: 1;
+	
+}
+
+
