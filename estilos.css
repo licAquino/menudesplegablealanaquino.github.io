@@ -7,7 +7,8 @@
 }
 
 body {
-	background-color: rgba(255, 255, 255, 0.767);
+	background-image: url("backlogo.jpg");
+	background-size: cover ;
 }
 
 .navegacion {
